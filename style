@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+}
+
+h2 {
+    font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
+}
+
+h1 {
+    font-family: Helvetica Neue,Arial,sans-serif;
+}
+
+.container {
+    padding-right: 46px;
+    padding-bottom: 50px;
+    padding-left: 46px;
+    border-radius: 10px;
+    margin-top: 120px;
+    height: 490px;
+    width: 366px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+header {
+    margin-top: 30px;
+    display: block;
+    margin-left: 166px;
+    margin-right: 166px;
+    margin-bottom: 35px;
+
+}
+
+#pplogoheader {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 34px;
+}
+
+#email {
+    border-radius: 4px;
+    width: 9.2cm;
+    height: 1.6cm;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    border: 0.0625rem solid #9da3a6;
+}
+
+#email:focus {
+    border-radius: 4px;
+    width: 9.2cm;
+    height: 1.6cm;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+#email:hover {
+    border-radius: 5px;
+    width: 9.2cm;
+    height: 1.6cm;
+    margin-top: 2cm;
+    display: block;
+    margin: 0 auto;
+    border: 0.0625rem solid blue;
+}
+
+#email::placeholder {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+#submitButton {
+    font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+#forotEmail {
+    text-decoration: underline;
+    
+}
